@@ -1,0 +1,176 @@
+
+{
+	margin: 0;
+	padding: 0;
+}
+/*background image*/
+.bgimage{
+	
+	background-image:url('DC.jpg');
+	background-size: cover;
+	height: 100vh;
+	position: relative;
+	background-position: center;
+	
+	
+}
+/*allignment of menu to right*/
+nav{
+	display:flex;
+	justify-content:space-between;
+	padding:12px 15px;
+	align-items: center;
+	
+}nav img{
+	width: 150px;
+	
+}
+.nav-links{
+	flex:1;
+	text-align: right;
+}
+.nav-links ul li{
+	list-style: none;
+	display:inline-block;
+	padding:12px 14px;
+	position:relative;
+	
+}/*logo */
+/*menu elements color and size*/
+.nav-links ul li a{
+	color:rgb(241, 238, 238);
+	font-size: 13px;
+	font-weight: bold;
+	text-decoration:none;	
+}/*menu elements height and display*/
+
+nav ul li a:hover{
+	color:rgb(207, 20, 20);
+}/*menu bar select items*/
+
+.nav-links ul li::after{
+	content:"";
+	width:0;
+	height:2px;
+	background:#f50606c0;
+	display:block;
+	margin:auto;
+	transition: 0.5s;
+
+
+}
+
+.nav-links ul li:hover::after 
+{
+width:100%;
+
+}
+
+
+.text-box{
+	position:absolute;
+	text-align: center;
+	padding:20px 10px;
+	border-top-left-radius:50px;
+	border-bottom-right-radius:50px ;
+	color:rgb(19, 17, 17);
+	border:5px inset rgba(214, 214, 11, 0.979);
+	transform:translate(30px,120px);
+
+} 
+.text-box h1{
+	font-size: 50px;
+	color:rgba(241, 67, 23, 0.808);
+
+}
+.text-box p{
+	
+	font-size: 15px;
+	color:rgb(247, 242, 242);
+	font-weight: bold;
+	
+
+}
+.hero-btn{
+	
+	text-decoration: none;
+	border:1px solid rgb(245, 64, 9);
+	padding: 12px 30px;
+	font-size:13px;
+	background:#f1f4f7;
+	font-weight: bold;
+	position:absolute;
+	margin-left: 50px;
+	transform:translate(-80%,100%);
+
+}
+
+.hero-btn:hover{
+	
+	background:#31dba88f;
+	transition: 0.5s;
+}
+nav .fa{
+	display: none;
+}
+@media(max-width:800px){
+	.text-box {
+		font-size: 0px;
+		margin-top:30%;
+		margin-left:10px;
+	}
+	nav img{
+		width:100px;
+		margin-top:5%;
+	}
+	.text-box p{
+		font-size: 10px;
+	}
+	.text-box h1{
+		font-size:15px;
+		
+	}
+	.text-box a{
+		margin-right:-45%;
+		margin-top: 10%;
+		padding: 2px;
+	}
+	.bgimage{
+		background-size: cover;
+		height: 100vh;
+		background-position: center;
+
+	}
+	nav ul li a:hover{
+		color:rgb(104, 98, 98);
+		height:
+	}
+	
+	
+	.nav-links ul li{
+		display:block;
+	}
+	.nav-links {
+		position:absolute;
+		background:#030000;
+		height:100vh;
+		width:200px;
+		top:0;
+		right:-400px;
+		text-align: left;
+		z-index: 2;
+		transition: 1s;
+	}
+	nav .fa{
+		display: block;
+		color:rgb(255, 255, 255);
+		margin:10px;
+		font-size: 20px;
+		cursor: pointer;
+	}
+	.nav-links ul{
+		padding:30px;
+	}
+}
+
+

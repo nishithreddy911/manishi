@@ -1,0 +1,310 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+
+nav{
+	display:flex;
+	justify-content:space-between
+	padding:12px 15px;
+	text-align:center;
+	height:120px;
+	
+	
+}
+
+
+.h{
+	font-size: 25px;
+	margin-left: 160px;
+}
+.phasesnav{
+	width:100%;
+	flex:1;
+	text-align: left;
+	background-color:#142b47;
+}
+.phasesnav ul{
+	margin: 0px;
+	padding: 0;    
+	list-style: none;
+	line-height: 30px;
+}
+.image{
+	width:450px;
+	height:350px;
+	margin-left:30px;
+	 border-bottom-left-radius: 50px; 
+	 border-top-right-radius: 50px;
+}
+h2{
+	margin-left:40%;
+	
+}
+.phasesnav li{
+	float: left;
+
+}
+nav img{
+	width: 150px;
+	}
+
+ul{
+	list-style: none;
+}
+a{
+	text-decoration: none;
+	font-size: 20px;
+	color:black;
+}
+.phasesnav ul li {
+	text-decoration: none;
+	width: 130px;
+	display: inline-block;
+	text-align: center;
+	font-family: sans-serif;
+	letter-spacing: 0.5px;
+}
+.phasesnav li a:hover{
+	color: #fff;
+	opacity: 0.5;
+	font-size: 15px;
+}
+.phasesnav a{
+	color: #fff;
+}
+button{
+	width: 80px;
+	height:25px;
+	border-radius: 5px;
+	color: #142b47;
+}
+p{
+	font-size: 20px;
+}
+
+embed{
+	width:100%; height:500px;
+	
+}
+.overview{
+		font: 400 12px/1 RobotoCondensed Bold,Trebuchet MS,Helvetica,Arial,sans-serif;
+		font-style: italic;
+		color: #fff;
+		letter-spacing:0.5px;
+		text-transform: uppercase;
+		line-height: 30px;
+		background:#050001;
+		font-size: 30px;
+		padding:5px 20px;
+		width:200px;
+		border-radius:100px ;
+	
+}
+.data{
+	letter-spacing: 1px;
+	word-spacing: 1px;
+	font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+	
+}
+
+.column {
+	float: left;
+	width: 33.33%;
+	padding: 10px;
+	margin-right: 20%;;
+  }
+  
+
+  
+  /* Clear floats after image containers */
+  .row::after {
+	content: "";
+	clear: both;
+	display: table;
+  }
+  .row {
+	display: flex;
+  }
+  
+  .column {
+	flex: 33.33%;
+	padding: 10px;
+	text-align: left;
+	font-size: 20px;
+	
+  }
+  img{
+	width:120px;height:80px;
+}
+
+h4{
+	font-size: 20px;
+	margin-left:80px
+}
+p1{
+	font-size: 20px;
+	margin-left:300px;
+}
+img{
+	margin-left: 18%;
+}
+  .cast{
+	  diplay:flex;
+	  justify-content: space-between;
+	  float:right;
+	  background-color: rgb(61, 100, 100);
+	  padding: 40px;
+	  
+	 
+  }
+  
+  .column1 {
+	float: left;
+	width: 40.33%;
+	padding: 10px;
+	margin-right: 5%;
+  }
+  
+
+  
+  /* Clear floats after image containers */
+  .row1::after {
+	content: "";
+	clear: both;
+	display: table;
+  }
+  .row1 {
+	display: flex;
+  }
+  
+  .column1 {
+	flex: 40.33%;
+	padding: 10px;
+	text-align: left;
+	font-size: 20px;
+	
+  }
+  .cast ul li{
+	  display: inline-block;
+	  padding: 10px;
+  }
+  .b1{
+	  margin-left:10%;
+	  margin-bottom: 10%;
+  }
+  nav .fa{
+	display: none;
+}
+  @media(max-width:800px){
+	nav ul li a:hover{
+		color:rgb(104, 98, 98);
+		height:
+	}
+	.h{
+		font-size: 16px;
+		margin-left:20px;
+		
+	}
+	
+	
+	.phasesnav ul li{
+		display:block;
+	}
+	.phasesnav {
+		position:absolute;
+		background:#030000;
+		height:100vh;
+		padding: 12px;
+		width:200px;
+		top:0;
+		right:-400px;
+		text-align: left;
+		z-index: 2;
+		transition: 0.5s;
+	}
+	nav .fa{
+		display: block;
+		color:rgb(128, 15, 15);
+		margin:10px;
+		font-size: 20px;
+		cursor: pointer;
+	}
+	.phasesnav ul{
+		padding:30px;
+	}
+	.image{
+		width:200px;
+		height:180px;
+		margin-left:20px;
+	 	border-bottom-left-radius: 30px; 
+	 	border-top-right-radius: 30px;
+}
+.overview{
+	font: 400 12px/1 RobotoCondensed Bold,Trebuchet MS,Helvetica,Arial,sans-serif;
+	font-style: italic;
+	color: #fff;
+	letter-spacing:0.5px;
+	text-transform: uppercase;
+	line-height: 40px;
+	background:#050001;
+	font-size: 20px;
+	padding:3px 10px;
+	width:120px;
+	border-radius:70px ;
+
+}
+embed{
+	width:250px; height:250px;
+	width:100%;
+
+	
+}
+h4{
+	font-size: 12px;
+	margin-left: 10px;
+	
+	
+}
+h2{
+	font-size:20px;
+}
+p{
+	font-size: 12px;
+	
+}
+p1{
+	font-size: 12px;
+	margin-left: 70px;
+}
+img{
+	width:80px;height:60px;
+}
+.column1 {
+	float: left;
+	width: 25.33%;
+	padding: 10px;
+	margin-right: 0;
+  }
+  
+
+  
+  /* Clear floats after image containers */
+  .row1::after {
+	content: "";
+	clear: both;
+	display: table;
+  }
+  .row1 {
+	display: flex;
+  }
+  
+  .column1 {
+	flex: 25.33%;
+	padding: 10px;
+	text-align: left;
+	font-size: 20px;
+	
+  }
+  }
